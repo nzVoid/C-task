@@ -5,7 +5,7 @@ int set_bit(int value, int position) {
     return (value ^ (1 << position));
 }
 
-void main(){
+int main(){
     size_t x = 253;//число, бит которого нужно изменить
     size_t *y = &x;
     size_t length = CHAR_BIT;//количество бит в байте
